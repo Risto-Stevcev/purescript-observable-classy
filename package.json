@@ -1,0 +1,33 @@
+{
+  "name": "purescript-observable-classy",
+  "version": "0.1.0",
+  "description": "A purescript typeclass for the ES observable interface",
+  "main": "index.js",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/purescript-observable-classy.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "rm -rf output && rm -rf .pulp-cache",
+    "build": "pulp build",
+    "test": "pulp test"
+  },
+  "keywords": [
+    "es",
+    "observable",
+    "javascript",
+    "purescript"
+  ],
+  "author": "Risto Stevcev",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "pulp": "^12.0.1",
+    "purescript-psa": "^0.5.1",
+    "purescript": "^0.11.6",
+    "zen-observable": "^0.6.0"
+  }
+}
